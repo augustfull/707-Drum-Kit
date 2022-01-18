@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>707 Drum Kit</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <button type="button" id="_kick" data-press="key-pressed">
+        <kbd>Q</kbd>
+      </button>
+      <button type="button" id="_snare" data-press="key-pressed">
+        <kbd>W</kbd>
+      </button>
+      <button type="button" id="_hh-closed" data-press="key-pressed">
+        <kbd>E</kbd>
+      </button>
+      <button type="button" id="_hh-open" data-press="key-pressed">
+        <kbd>R</kbd>
+      </button>
+      <button type="button" id="_crash" data-press="key-pressed">
+        <kbd>T</kbd>
+      </button>
+      <button type="button" id="_cowbell" data-press="key-pressed">
+        <kbd>Y</kbd>
+      </button>
+      <button type="button" id="_clap" data-press="key-pressed">
+        <kbd>U</kbd>
+      </button>
+      <button type="button" id="_h-tom" data-press="key-pressed">
+        <kbd>I</kbd>
+      </button>
+      <button type="button" id="_m-tom" data-press="key-pressed">
+        <kbd>O</kbd>
+      </button>
+      <button type="button" id="_l-tom" data-press="key-pressed">
+        <kbd>P</kbd>
+      </button>
+    </div>
+
+    <div style="display: none">
+      <audio id="clap">
+        <source src="assets/wav-files/707_clap.WAV" type="audio/wav" />
+      </audio>
+      <audio id="cowbell">
+        <source src="assets/wav-files/707_cowbell.WAV" type="audio/wav" />
+      </audio>
+      <audio id="crash">
+        <source src="assets/wav-files/707_crash.WAV" type="audio/wav" />
+      </audio>
+      <audio id="hh-closed">
+        <source src="assets/wav-files/707_hi-hat-closed.WAV" type="audio/wav" />
+      </audio>
+      <audio id="hh-open">
+        <source src="assets/wav-files/707_hi-hat-open.WAV" type="audio/wav" />
+      </audio>
+      <audio id="h-tom">
+        <source src="assets/wav-files/707_hi-tom.WAV" type="audio/wav" />
+      </audio>
+      <audio id="l-tom">
+        <source src="assets/wav-files/707_low-tom.WAV" type="audio/wav" />
+      </audio>
+      <audio id="m-tom">
+        <source src="assets/wav-files/707_mid-tom.WAV" type="audio/wav" />
+      </audio>
+      <audio id="kick">
+        <source src="assets/wav-files/707_kick.WAV" type="audio/wav" />
+      </audio>
+      <audio id="snare">
+        <source src="assets/wav-files/707_snare.WAV" type="audio/wav" />
+      </audio>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
